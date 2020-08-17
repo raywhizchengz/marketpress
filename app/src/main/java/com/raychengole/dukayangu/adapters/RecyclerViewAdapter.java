@@ -94,7 +94,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         TextView textName;
         TextView textPrice;
         ImageView favoriteView;
-//        RelativeLayout parentLayout;
+
 
         public    ViewHolder(@NonNull View itemView) {
             super(itemView);
