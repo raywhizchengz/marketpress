@@ -107,5 +107,4 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
 //    public void searchList(List<Product> newList) {
-
 }
