@@ -110,6 +110,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 //        productList = new ArrayList<>();
 //        productList.addAll(newList);
 //        notifyDataSetChanged();
-//    }
+
 
 }
