@@ -109,7 +109,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 //    public void searchList(List<Product> newList) {
 //        productList = new ArrayList<>();
 //        productList.addAll(newList);
-//        notifyDataSetChanged();
 
 
 }
