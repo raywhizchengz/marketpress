@@ -1,5 +1,6 @@
 # Duka  Yangu
 
+[Duka Yangu](https://github.com/raywhizchengz/marketpress) this is a mobile application that allows online buying and selling of goods and services.
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.
