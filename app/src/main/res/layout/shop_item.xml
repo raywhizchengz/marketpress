@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="210dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView"
+            android:gravity="center"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textName"
+            android:gravity="center"
+            android:text="Price"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/select_favorite_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textName"
+            android:layout_toRightOf="@id/textPrice"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            android:tint="@color/baseColor" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
